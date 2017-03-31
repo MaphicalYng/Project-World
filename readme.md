@@ -34,7 +34,7 @@
   
 实例代码：
 
-    const world = requier('.../app_web_asmod');
+    const world = requie('.../app_web_asmod');
     var result = world.run();
     // 将 result 变量用到生成的网页内容中即可。
 
