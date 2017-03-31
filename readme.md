@@ -34,7 +34,7 @@
   
 实例代码：
 
-    const world = requie('.../app_web_asmod');
+    const world = require('.../app_web_asmod');
     var result = world.run();
     // 将 result 变量用到生成的网页内容中即可。
 
@@ -48,6 +48,4 @@
 
 ## legend & map
 
-legend 是图例，里面定义了地图中不同字符所对应的构造函数的名称。它的 string 属性中保存的是所有**生物**字符的名称，用于 checkTheSystem() 函数生成状态报告。
-  
-map 是定义地图的变量，要注意的是要将地图定义为一个矩形。
+legend 是图例，里面定义了地图中不同字符所对应的构造函数的名称。它的 string 属性中保存的是所有**生物**字符的名称，用于 checkTheSystem() 函数生成状态报告。map 是定义地图的变量，要注意的是要将地图定义为一个矩形。
