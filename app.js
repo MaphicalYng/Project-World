@@ -2,8 +2,8 @@
 'use strict';
 
 // get module world
-var world = require('./mod_world');
-var critter = require('./mod_critter');
+var world = require('./mod/mod_world');
+var critter = require('./mod/mod_critter');
 
 // map
 var map = [
